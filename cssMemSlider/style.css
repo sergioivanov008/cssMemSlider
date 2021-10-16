@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #25282a;
+}
+.slider {
+  margin: 0 auto;
+  max-width: 90%;
+  height: 60vh;
+  margin-top: 10rem;
+  background-color: blue;
+
+  display: flex;
+  flex-direction: column;
+}
+.slider-window {
+  width: 100%;
+  height: 80%;
+  background-color: blueviolet;
+}
+.slider-conrtrols {
+  width: 100%;
+  height: 10%;
+  background-color: brown;
+}
+.slider-text {
+  width: 100%;
+  height: 10%;
+  background-color: burlywood;
+}
