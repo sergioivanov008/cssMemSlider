@@ -44,7 +44,6 @@ body {
 
 .slider-controls {
   width: 100%;
-  /* height: 100%; */
   margin-top: 2rem;
   display: flex;
   align-items: center;
@@ -52,7 +51,6 @@ body {
 }
 .slider-text {
   width: 40rem;
-  /* height: 4rem; */
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -108,7 +106,6 @@ body {
   background-color: transparent;
 }
 
-
 input[name="input-radio"] {
   display: none;
 }
@@ -128,7 +125,7 @@ input[name="input-radio"] {
   margin-left: -400%;
 }
 
-/* #radio-1:checked ~ .slider > .slider-title {
+#radio-1:checked ~ .slider > .slider-title {
   color: #8a8d6d;
 }
 #radio-2:checked ~ .slider > .slider-title {
@@ -142,7 +139,7 @@ input[name="input-radio"] {
 }
 #radio-5:checked ~ .slider > .slider-title {
   color: #8e877c;
-} */
+}
 
 #radio-1:checked ~ .slider > .slider-controls > .slider-text > .text-items {
   margin-left: 0rem;
