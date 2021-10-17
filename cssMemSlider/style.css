@@ -37,7 +37,7 @@ body {
   margin-left: 0%;
 }
 .img-slide {
-  width: 100%;
+  min-width: 100%;
   height: auto;
   border-radius: 1rem;
 }
@@ -46,22 +46,20 @@ body {
   width: 100%;
   margin-top: 2rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 .slider-text {
-  width: 40rem;
-  display: flex;
-  align-items: center;
+  width: 70%;
   overflow: hidden;
 }
 .text-items {
   display: flex;
-  margin-left: 0;
+  transform: translateX(0);
   transition: all 0.4s ease;
 }
 .text-item {
-  width: 40rem;
+  min-width: 100%;
   font-family: Roboto;
   font-style: italic;
   font-size: 2rem;
@@ -142,19 +140,19 @@ input[name="input-radio"] {
 }
 
 #radio-1:checked ~ .slider > .slider-controls > .slider-text > .text-items {
-  margin-left: 0rem;
+  transform: translateX(0);
 }
 #radio-2:checked ~ .slider > .slider-controls > .slider-text > .text-items {
-  margin-left: -40rem;
+  transform: translateX(-100%);
 }
 #radio-3:checked ~ .slider > .slider-controls > .slider-text > .text-items {
-  margin-left: -80rem;
+  transform: translateX(-200%);
 }
 #radio-4:checked ~ .slider > .slider-controls > .slider-text > .text-items {
-  margin-left: -120rem;
+  transform: translateX(-300%);
 }
 #radio-5:checked ~ .slider > .slider-controls > .slider-text > .text-items {
-  margin-left: -160rem;
+  transform: translateX(-400%);
 }
 
 #radio-1:checked ~ .slider > .slides-border {
@@ -179,6 +177,7 @@ input[name="input-radio"] {
     align-items: flex-start;
   }
   .slider-text {
+    width: 100%;
     margin-top: 1.5rem;
   }
   .slider-btns {
