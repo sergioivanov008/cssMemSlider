@@ -19,9 +19,25 @@
       <input type="radio" name="input-radio" id="radio-4">
       <input type="radio" name="input-radio" id="radio-5">
 
+      <input type="radio" name="input-lang" id="eng" checked>
+      <input type="radio" name="input-lang" id="ru">
+
       <div class="slider">
 
-        <h1 class="slider-title">cssMemSlider</h1>
+        <div class="slider-header">
+
+          <h1 class="slider-title">cssMemSlider</h1>
+
+          <div class="lang-toggle">
+            <label for="eng" class="lang-btn-wrapper">
+              <div class="lang-btn btn-eng">eng</div>
+            </label>
+            <label for="ru" class="lang-btn-wrapper">
+              <div class="lang-btn btn-ru">ru</div>
+            </label>
+          </div>
+
+        </div>
 
         <div class="slides-border">
           <div class="slides">
@@ -36,12 +52,19 @@
         <div class="slider-controls">
 
           <div class="slider-text">
-            <div class="text-items">
+            <div class="text-items ru-text">
               <div class="text-item">Доброе котоутро!</div>
               <div class="text-item">Утро начинается не с кофе</div>
               <div class="text-item">Эти глаза не могут лгать</div>
               <div class="text-item">Котов много не бывает</div>
               <div class="text-item">Коты спасут мир</div>
+            </div>
+            <div class="text-items eng-text">
+              <div class="text-item">Good catmorning!</div>
+              <div class="text-item">The morning does not begin with coffee</div>
+              <div class="text-item">These eyes cannot lie</div>
+              <div class="text-item">There are never too many cats</div>
+              <div class="text-item">Cats will save the world</div>
             </div>
           </div>
 
