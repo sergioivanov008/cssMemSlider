@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cssMemSlider</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main">
+      <input type="radio" name="input-radio" id="radio-1" checked>
+      <input type="radio" name="input-radio" id="radio-2">
+      <input type="radio" name="input-radio" id="radio-3">
+      <input type="radio" name="input-radio" id="radio-4">
+      <input type="radio" name="input-radio" id="radio-5">
+
+      <input type="radio" name="input-lang" id="eng" checked>
+      <input type="radio" name="input-lang" id="ru">
+
+      <div class="slider">
+
+        <div class="slider-header">
+
+          <h1 class="slider-title">cssMemSlider</h1>
+
+          <div class="lang-toggle">
+            <label for="eng" class="lang-btn-wrapper">
+              <div class="lang-btn btn-eng">eng</div>
+            </label>
+            <label for="ru" class="lang-btn-wrapper">
+              <div class="lang-btn btn-ru">ru</div>
+            </label>
+          </div>
+
+        </div>
+
+        <div class="slides-border">
+          <div class="slides">
+            <img src="./img/img-1.jpg" class="img-slide">
+            <img src="./img/img-2.jpg" class="img-slide">
+            <img src="./img/img-3.jpg" class="img-slide">
+            <img src="./img/img-4.jpg" class="img-slide">
+            <img src="./img/img-5.jpg" class="img-slide">
+          </div>
+        </div>
+
+        <div class="slider-controls">
+
+          <div class="slider-text">
+            <div class="text-items ru-text">
+              <div class="text-item">Доброе котоутро!</div>
+              <div class="text-item">Утро начинается не с кофе</div>
+              <div class="text-item">Эти глаза не могут лгать</div>
+              <div class="text-item">Котов много не бывает</div>
+              <div class="text-item">Коты спасут мир</div>
+            </div>
+            <div class="text-items eng-text">
+              <div class="text-item">Good catmorning!</div>
+              <div class="text-item">The morning does not begin with coffee</div>
+              <div class="text-item">These eyes cannot lie</div>
+              <div class="text-item">There are never too many cats</div>
+              <div class="text-item">Cats will save the world</div>
+            </div>
+          </div>
+
+          <div class="slider-btns">
+            <label for="radio-1" class="btn-wrapper">
+              <div class="btn btn-1"></div>
+            </label>
+            <label for="radio-2" class="btn-wrapper">
+              <div class="btn btn-2"></div>
+            </label>
+            <label for="radio-3" class="btn-wrapper">
+              <div class="btn btn-3"></div>
+            </label>
+            <label for="radio-4" class="btn-wrapper">
+              <div class="btn btn-4"></div>
+            </label>
+            <label for="radio-5" class="btn-wrapper">
+              <div class="btn btn-5"></div>
+            </label>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>
